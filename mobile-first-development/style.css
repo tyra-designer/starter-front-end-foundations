@@ -36,3 +36,14 @@ h3 {
 .item-double {
   flex: 2;
 }
+
+body {
+  background-color: green;
+}
+
+/* This applies from 0px to 600px */
+@media all and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}
