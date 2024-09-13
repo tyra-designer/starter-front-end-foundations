@@ -49,3 +49,17 @@ h3 {
     flex-direction: row;
   }
 }
+
+/* this code sample targets all the images within the .group
+container to display 100%*/
+
+/* img {
+  width: 100%;
+} */
+
+/* you can also be more selective in how you target your images.
+below the code will target only the main container to be 100% width */
+
+main img {
+  width: 100%;
+}
